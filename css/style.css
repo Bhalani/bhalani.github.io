@@ -9,7 +9,7 @@ is the file you need to edit to change the look of the
 theme.
 ---------------------------------------------------- */
 /*=====================================================================
-@Template Name: Builder Construction 
+@Template Name: Builder Construction
 @Author: Rocky Ahmed
 @Developed By: Rocky Ahmed
 @Developer URL: http://rocky.wethemez.com
@@ -26,14 +26,14 @@ Table of Content:
 06/ breadcrumb
 07/ about
 08/ team
-09/ project 
-10/ price 
-11/ team 
-12/ blog 
-13/ video  
-14/ features  
-15/ career  
-16/ contact 
+09/ project
+10/ price
+11/ team
+12/ blog
+13/ video
+14/ features
+15/ career
+16/ contact
 17/ footer
 
 =====================================================================*/
@@ -81,6 +81,10 @@ button:focus {
 .p_120 {
   padding-top: 120px;
   padding-bottom: 120px; }
+
+.p_10 {
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 .p_100 {
   padding-top: 100px;
@@ -2634,6 +2638,11 @@ h6 {
 
 /* End My Tabs Area css
 ============================================================================================ */
+
+/* .detailed_experience_area {
+  background: #f9f9ff;
+} */
+
 /* Feature Area css
 ============================================================================================ */
 .feature_area {
@@ -2752,7 +2761,8 @@ h6 {
       margin-right: 0px; }
     .personal_text .personal_social li a {
       line-height: 40px;
-      width: 40px;
+      min-width: 40px;
+      padding: 4px 18px;
       background: #e8e8e8;
       border-radius: 5px;
       display: inline-block;
